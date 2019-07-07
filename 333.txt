@@ -1,0 +1,32 @@
+设置用户名
+git config —global user.name  ‘yy1039795372’
+设置邮箱
+git config —global user.name  ‘1039795372@qq.com ‘
+创建test文件夹
+mkdir test
+初始化仓库
+cd test
+Git init
+创建a1.php 文件
+Git touch	 a1.php
+Git status
+上传到暂定区域
+git add a1.php
+Git add a1.php
+Modified: a1.php
+暂定区到仓库
+git commit -m ‘add a1.php’
+
+修改仓库
+vi a1.php
+修改后
+按：wq！ 退出
+显示修改后的内容
+cat a1.php 
+上传到暂定区域
+git add a1.php
+ 
+
+上传到
+Git clone https://github.com/yy1039795372/test.git
+Git config
